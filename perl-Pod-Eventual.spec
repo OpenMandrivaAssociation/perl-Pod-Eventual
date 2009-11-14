@@ -1,5 +1,5 @@
 %define upstream_name    Pod-Eventual
-%define upstream_version 0.091480
+%define upstream_version 0.093170
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
