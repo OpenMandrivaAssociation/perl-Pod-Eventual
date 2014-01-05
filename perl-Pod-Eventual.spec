@@ -1,15 +1,15 @@
 %define upstream_name    Pod-Eventual
-%define upstream_version 0.093330
+%define upstream_version 0.094001
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	Just get an array of the stuff Pod::Eventual finds
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Pod/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Eventual-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Mixin::Linewise::Readers)
@@ -71,4 +71,5 @@ make test
 
 * Fri May 29 2009 cpan2dist 0.091480-1mdv
 - initial mdv release, generated with cpan2dist
+
 
