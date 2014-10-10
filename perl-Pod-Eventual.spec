@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	Just get an array of the stuff Pod::Eventual finds
 License:	GPL+ or Artistic
