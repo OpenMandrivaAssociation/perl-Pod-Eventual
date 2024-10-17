@@ -8,7 +8,7 @@ Release:	3
 Summary:	Just get an array of the stuff Pod::Eventual finds
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Pod/Pod-Eventual-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
